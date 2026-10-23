@@ -1,0 +1,6 @@
+Options -Indexes
+
+<FilesMatch "^(koneksi|config)\.php$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
